@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "fuser -k 2816/tcp || true && sleep 1 && ts-node --project tsconfig.server.json server.ts",
     "build": "next build",
-    "start": "next start -p 2816",
+    "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
