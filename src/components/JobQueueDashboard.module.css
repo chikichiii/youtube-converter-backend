@@ -1,0 +1,106 @@
+
+.dashboard {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #eee;
+}
+
+.error {
+    color: #ff4d4d;
+    background-color: #442222;
+    border: 1px solid #ff4d4d;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #444;
+    margin-bottom: 15px;
+}
+
+.tabButton {
+    background: none;
+    border: none;
+    color: #aaa;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+}
+
+.tabButton.active {
+    color: #fff;
+    border-bottom-color: #0070f3;
+}
+
+.tabButton:hover {
+    color: #fff;
+}
+
+.tabContent {
+    min-height: 150px;
+}
+
+.jobTable {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ccc;
+}
+
+.jobTable th, .jobTable td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+.jobTable th {
+    background-color: #333;
+    font-weight: 600;
+    color: #fff;
+}
+
+.jobTable tr:last-child td {
+    border-bottom: none;
+}
+
+.jobTable td {
+    vertical-align: middle;
+}
+
+.actionButton {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-right: 5px;
+}
+
+.actionButton:hover {
+    background-color: #005bb5;
+}
+
+.deleteButton {
+    background-color: #e53e3e;
+}
+
+.deleteButton:hover {
+    background-color: #c53030;
+}
+
+.progressBar {
+    width: 100%;
+}

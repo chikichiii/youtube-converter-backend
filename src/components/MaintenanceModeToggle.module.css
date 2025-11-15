@@ -1,0 +1,73 @@
+.cardHeader {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.cardBody {
+  padding: 1.25rem;
+}
+
+.cardTitle {
+  margin-bottom: 0.75rem;
+}
+
+.cardText {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alertDanger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.formCheck {
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5em;
+  margin-bottom: 0.125rem;
+}
+
+.formSwitch {
+  padding-left: 2.5em;
+}
+
+.formCheckInput {
+  width: 1em;
+  height: 1em;
+  margin-top: 0.25em;
+  vertical-align: top;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 0.25rem;
+  transition: background-color 0.15s ease-in-out, background-position 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.formCheckInput[type="checkbox"] {
+  border-radius: 0.25em;
+}
+
+.formCheckInput:checked {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.formCheckLabel {
+  padding-left: 0.5em;
+}

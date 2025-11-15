@@ -1,0 +1,39 @@
+{
+  "queue": [],
+  "processing": [],
+  "completed": [
+    {
+      "id": "437137d7-f40d-491a-a349-011f8862e7f2",
+      "data": {
+        "url": "https://www.youtube.com/watch?v=lx8Lw8zJ72g",
+        "itag": 96,
+        "title": "Everyday Party Time! / 小森めと【#DIAMONDintheROUGH】",
+        "outputFormat": "mp4"
+      },
+      "status": "completed",
+      "progress": 100,
+      "createdAt": 1763204649315,
+      "filePath": "/home/chickens0905/youtube-converter-backend/downloads/Everyday_Party_Time__________DIAMONDintheROUGH_.mp4",
+      "contentType": "video/mp4",
+      "contentLength": "106057493",
+      "fileName": "Everyday_Party_Time__________DIAMONDintheROUGH_.mp4"
+    },
+    {
+      "id": "436f24ae-5639-46e1-8952-788f2fbb342d",
+      "data": {
+        "url": "https://www.youtube.com/watch?v=lx8Lw8zJ72g",
+        "itag": 96,
+        "title": "Everyday Party Time! / 小森めと【#DIAMONDintheROUGH】",
+        "outputFormat": "mp4"
+      },
+      "status": "completed",
+      "progress": 100,
+      "createdAt": 1763205100341,
+      "filePath": "/home/chickens0905/youtube-converter-backend/downloads/Everyday_Party_Time__________DIAMONDintheROUGH_.mp4",
+      "contentType": "video/mp4",
+      "contentLength": "106057493",
+      "fileName": "Everyday_Party_Time__________DIAMONDintheROUGH_.mp4"
+    }
+  ],
+  "failed": []
+}

@@ -1,0 +1,166 @@
+
+
+.dashboardCard {
+  background: var(--card-color);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px; /* Add some space between cards */
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.metricCard {
+  background: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.metricLabel {
+  font-size: 14px;
+  color: var(--subtle-text-color);
+  margin-bottom: 8px;
+}
+
+.metricValue {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--accent-color);
+  margin-bottom: 10px;
+}
+
+.metricSubtext {
+  font-size: 12px;
+  color: var(--subtle-text-color);
+}
+
+/* Job Table Styles */
+.jobTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.jobTable th,
+.jobTable td {
+  border: 1px solid var(--border-color);
+  padding: 10px;
+  text-align: left;
+}
+
+.jobTable th {
+  background-color: var(--background-color);
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.jobTable tbody tr:nth-child(even) {
+  background-color: var(--background-color-light);
+}
+
+.jobTable tbody tr:hover {
+  background-color: var(--background-color-hover);
+}
+
+.jobStatusQueued {
+  color: #ffc107; /* Bootstrap yellow for warning */
+  font-weight: 600;
+}
+
+.jobStatusProcessing {
+  color: #17a2b8; /* Bootstrap info blue */
+  font-weight: 600;
+}
+
+.jobStatusCompleted {
+  color: #28a745; /* Bootstrap green for success */
+  font-weight: 600;
+}
+
+.jobStatusFailed {
+  color: #dc3545; /* Bootstrap red for danger */
+  font-weight: 600;
+}
+
+.jobActions button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.jobActions button:hover {
+  opacity: 0.8;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  color: white;
+}
+
+.retryButton {
+  background-color: #ffc107;
+  color: #343a40;
+}
+
+.clearAllButton {
+  background-color: #6c757d;
+  color: white;
+  margin-top: 15px;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+}
+
+.clearAllButton:hover {
+  opacity: 0.8;
+}
+
+/* StatBar Styles */
+.statBarContainer {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.statBarFill {
+  height: 8px;
+  background-color: var(--accent-color);
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+.barGreen {
+  background-color: #48BB78;
+}
+
+.barYellow {
+  background-color: #F6E05E;
+}
+
+.barRed {
+  background-color: #F56565;
+}

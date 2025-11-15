@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+  background-color: #121212 !important;
+  color: #EAEAEA !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  height: 100vh; /* min-heightをheightに変更 */
+  /* padding: 20px; */ /* パディングを削除 */
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: #1E1E1E !important;
+  border-color: #333333 !important;
+  color: #EAEAEA !important;
+}
+
+.text-secondary {
+  color: #A0A0A0 !important;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+}
+
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+/* Force dark styling for Bootstrap tables within the dark theme */
+.tab-content .table {
+  --bs-table-bg: #1E1E1E !important;
+  --bs-table-color: #EAEAEA !important;
+  border: 1px solid #333333 !important;
+  border-radius: 15px !important;
+  overflow: hidden !important;
+}
+
+.tab-content .table th,
+.tab-content .table td {
+  color: #EAEAEA !important; /* Explicitly set text color to white */
+  border-color: #333333 !important;
+  white-space: nowrap !important; /* Prevent text wrapping */
+}
+
+.tab-content .table.table-striped > tbody > tr:nth-of-type(odd) > * {
+  background-color: #282828 !important; /* Darker shade for striped rows */
+}
+
+.tab-content .table.table-hover > tbody > tr:hover > * {
+  background-color: #3A3A3A !important; /* Even darker for hover */
+}
